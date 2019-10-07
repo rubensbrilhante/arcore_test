@@ -47,7 +47,7 @@ public class AugmentedImageFragment extends ArFragment {
     @Override
     protected Config getSessionConfiguration(Session session) {
         Config config = super.getSessionConfiguration(session);
-        config.setFocusMode(Config.FocusMode.AUTO);
+        config.setFocusMode(Config.FocusMode.FIXED);
         try (InputStream is = getContext().getAssets().open(IMAGE_DATABASE)) {
             augmentedImageDatabase = AugmentedImageDatabase.deserialize(session, is);
             config.setAugmentedImageDatabase(augmentedImageDatabase);

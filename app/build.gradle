@@ -49,3 +49,8 @@ sceneform.asset('sampledata/pony/twilight.obj',
         'default',
         'sampledata/pony/twilight.sfa',
         'src/main/assets/twilight')
+
+sceneform.asset('sampledata/laptop/laptop.gltf',
+        'default',
+        'sampledata/laptop/laptop.sfa',
+        'src/main/assets/laptop')
