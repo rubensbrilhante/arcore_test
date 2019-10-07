@@ -19,7 +19,7 @@ import java.io.InputStream;
 
 public class AugmentedImageFragment extends ArFragment {
 
-    private static final String IMAGE_DATABASE = "sparkday.imgdb";
+    private static final String IMAGE_DATABASE = "sparkday2.imgdb";
     AugmentedImageDatabase augmentedImageDatabase;
     ArListener listener;
 

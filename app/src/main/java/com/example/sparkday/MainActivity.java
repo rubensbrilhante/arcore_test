@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements Scene.OnUpdateLis
         arFragment = (ArFragment) getSupportFragmentManager().findFragmentById(R.id.sf_fragment);
         arFragment.getArSceneView().getScene().addOnUpdateListener(this);
         renderable = ModelRenderable.builder()
-                .setSource(this, Uri.parse("Mesh_Cat.sfb"))
+                .setSource(this, Uri.parse("laptop.sfb"))
                 .build();
 
 
